@@ -1,0 +1,52 @@
+
+.example-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+
+.example-margin {
+  margin: 8px;
+}
+
+.example-width {
+  max-width: 180px;
+  width: 100%;
+}
+
+.mat-mdc-slider {
+  width: 100%;
+}
+
+.mat-mdc-card + .mat-mdc-card {
+  margin-top: 8px;
+}
+
+.example-result-card h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.example-label-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px 0;
+}
+
+.example-result-card:hover{
+  transition: 1s;
+  box-shadow: -2px 2px 2px 2px white;
+  border: 2px solid black;
+}
+
+
+.example-value-label {
+  font-weight: 600;
+}
+
+.myDiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}

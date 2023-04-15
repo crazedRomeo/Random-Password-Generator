@@ -1,0 +1,71 @@
+<div class="myDiv">
+  <mat-card class="example-result-card">
+    <div class="">
+    <mat-card-content>
+      <h2>Password Generator</h2>
+      <div>
+        <div class="input-group flex-nowrap">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Password"
+            aria-label="Username"
+            readonly
+            aria-describedby="addon-wrapping"
+            [(ngModel)]="generatedPassword"
+          />
+          <span class="input-group-text" id="addon-wrapping">
+            <mat-icon style="cursor: pointer" (click)="onClick()">{{
+              iconName
+            }}</mat-icon>
+          </span>
+        </div>
+      </div>
+      <div class="example-label-container">
+        <label id="example-name-label" class="example-name-label"
+          >Password Length</label
+        >
+        <label class="example-value-label">{{ value }}</label>
+      </div>
+      <mat-slider
+        class="example-margin"
+        max="20"
+        min="8"
+        step="1"
+        discrete="true"
+      >
+        <input matSliderThumb [(ngModel)]="value" />
+      </mat-slider>
+      <div style="max-width: 400px">
+        <section class="example-section">
+          <div>
+            <p>
+              <mat-checkbox [(ngModel)]="lower"
+                >LowerCase Letters (a-z)</mat-checkbox
+              >
+            </p>
+            <p>
+              <mat-checkbox [(ngModel)]="upper"
+                >Upper Case Letters (A-Z)</mat-checkbox
+              >
+            </p>
+          </div>
+          <div>
+            <p>
+              <mat-checkbox [(ngModel)]="symbol"
+                >Symbols (@,$,&,-,#)</mat-checkbox
+              >
+            </p>
+            <p><mat-checkbox [(ngModel)]="digit">Digits (0-9)</mat-checkbox></p>
+          </div>
+        </section>
+      </div>
+      <div style="display: flex; justify-content: center;">
+        <button mat-raised-button color="primary" (click)="onGenerate()">
+          Generate Password
+        </button>
+      </div>
+    </mat-card-content>
+    </div>
+  </mat-card>
+</div>
