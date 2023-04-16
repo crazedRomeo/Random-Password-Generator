@@ -1,27 +1,24 @@
 # RandomPasswordGenerator
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
+This project generates a random strong Password of minimum 8 length and maximum 20 length.
+The use of letters,digits and symbols depends upon the user.
 
-## Development server
+# Live Site
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Click [here](https://grraghav120.github.io/Random-Password-Generator/)
 
-## Code scaffolding
+## Screenshots of project
+![image](https://user-images.githubusercontent.com/96789493/232272329-8c0b54eb-eb97-4f25-bd1d-368911d9a68b.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![image](https://user-images.githubusercontent.com/96789493/232272340-ce686d3e-6ae5-46b5-96ee-de563431e426.png)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Run the Project
 
-## Running unit tests
+- `npm start`
+- Run `ng serve` for a dev server.
+- Navigate to `http://localhost:4200/`.
+- The application will automatically reload if you change any of the source files.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Don't forget to give repo a star
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
